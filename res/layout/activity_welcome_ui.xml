@@ -6,7 +6,7 @@
     tools:context="${relativePackage}.${activityClass}" >
 
     <ImageView
-        android:background="@drawable/hongbaotest"
+        android:background="@drawable/advice"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"

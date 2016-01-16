@@ -22,12 +22,16 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int android=0x7f020000;
-        public static final int guide_point_blue=0x7f020001;
-        public static final int guide_point_nomal=0x7f020002;
-        public static final int hongbao=0x7f020003;
-        public static final int hongbaotest=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
+        public static final int advice=0x7f020000;
+        public static final int android=0x7f020001;
+        public static final int guide_point_blue=0x7f020002;
+        public static final int guide_point_nomal=0x7f020003;
+        public static final int hongbao=0x7f020004;
+        public static final int hongbaotest=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int pic00=0x7f020007;
+        public static final int pic01=0x7f020008;
+        public static final int pic02=0x7f020009;
     }
     public static final class id {
         public static final int action_settings=0x7f09000a;

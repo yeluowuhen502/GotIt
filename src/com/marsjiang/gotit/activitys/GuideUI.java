@@ -87,8 +87,8 @@ public class GuideUI extends Activity implements OnClickListener {
 	}
 
 	private void initData() {
-		int[] imgId = new int[] { R.drawable.hongbaotest, R.drawable.hongbaotest,
-				R.drawable.hongbaotest };
+		int[] imgId = new int[] { R.drawable.pic00, R.drawable.pic01,
+				R.drawable.pic02 };
 		imgs = new ArrayList<ImageView>();
 		for (int i = 0; i < imgId.length; i++) {
 			ImageView imageView = new ImageView(this);
