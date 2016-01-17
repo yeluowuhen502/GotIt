@@ -83,6 +83,7 @@ public class GotService extends AccessibilityService {
 					System.out.println("找到红包窗口");
 					AccessibilityNodeInfo curNodeInfo = hongbaoList
 							.get(hongbaoList.size() - 1);
+					SharedUtils.putBoolean(getApplicationContext(),MyConstant.IS_GO_TO_QIANG, false);
 					// System.out.println();
 					//System.out.println(curNodeInfo.getParent());
 					curNodeInfo.getParent().performAction(
@@ -105,7 +106,7 @@ public class GotService extends AccessibilityService {
 					AccessibilityNodeInfo curNodeInfo2 = clickWindowList
 							.get(clickWindowList.size() - 1);
 					curNodeInfo2.performAction(AccessibilityNodeInfo.ACTION_CLICK);
-					SharedUtils.putBoolean(getApplicationContext(),MyConstant.IS_GO_TO_QIANG, false);
+					
 					
 					new Thread() {
 						public void run() {
